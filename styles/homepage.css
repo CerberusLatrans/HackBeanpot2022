@@ -2,7 +2,7 @@ html {
   color: white;
   font-size: 1vw; 
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(49, 49, 49);
 }
 body {
   margin: 10%
@@ -11,10 +11,10 @@ body {
 header {
   text-align: center;
   color: white;
-  text-shadow: 4px 4px rgb(74, 108, 202), 7px 7px rgb(161, 23, 23);
 }
 h1 {
   font-size: 75px;
+  text-shadow: 4px 4px rgb(74, 108, 202), 7px 7px rgb(161, 23, 23);
 }
 a {
   color: inherit;
@@ -25,7 +25,7 @@ a {
 nav {
   position:fixed;
   font-size: 14px;
-  top: 1%;
+  top: 0.5%;
   left: -2%;
   border-right: 3px solid white;
   height: 100%
@@ -67,7 +67,9 @@ main a:hover {
 }
 
 p {
-  margin:30px 20%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 30px;
   line-height: 25px;
 }
 
