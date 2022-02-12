@@ -31,7 +31,7 @@ nav {
   height: 100%
 }
 nav li {
-  padding-left: 0;
+  padding: 0.5%;
   margin: 0;
   list-style: none;
 }
