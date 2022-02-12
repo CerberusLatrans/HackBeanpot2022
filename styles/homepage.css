@@ -31,8 +31,9 @@ nav {
   height: 100%
 }
 nav li {
-  padding: 1% -1%;
+  padding: 5px 0px;
   margin: 0;
+  list-style-type: none;
 }
 nav a:hover {
   color: rgb(74, 108, 202);
