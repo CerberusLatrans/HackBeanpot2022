@@ -26,13 +26,13 @@ nav {
   position:fixed;
   font-size: 14px;
   top: 0%;
-  left: -1.5%;
+  left: -1.8%;
   border-right: 3px solid white;
   padding: 0;
   height: 100%
 }
 nav li {
-  padding: 0.5% 0;
+  padding: 0.5%;
   margin: 0;
   list-style: none;
 }
