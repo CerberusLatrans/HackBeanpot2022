@@ -42,6 +42,11 @@ nav a:hover {
 .topics, .helpfullinks {
   font-size: 18px;
 }
+
+img {
+  width: 5vw;
+  height: 5vw;
+}
 /* MAIN */
 main {
   margin: 5% 10%;
