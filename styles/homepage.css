@@ -25,7 +25,8 @@ a {
 nav {
   position:fixed;
   font-size: 12px;
-  left: 1%;
+  top: 0%;
+  left: -1%;
   border-right: 3px solid white;
   height: 100%
 }
@@ -42,7 +43,7 @@ nav a:hover {
 }
 /* MAIN */
 main {
-  margin: 10%;
+  margin: 5% 10%;
 }
 
 h2 {
