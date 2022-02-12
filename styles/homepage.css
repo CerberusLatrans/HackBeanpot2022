@@ -26,18 +26,21 @@ nav {
   position:fixed;
   font-size: 15px;
   top: 10%;
-  left: -3%;
-  border: 5px solid white;
+  left: -2%;
+  border-right: 5px solid white;
+  height: 100%
 }
 nav li {
   padding: 1%;
-  border: 1px solid white;
   margin: 0;
-  list-style-type: none;
 }
 nav a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+.topics, .helpfullinks {
+  font-size: 20px;
 }
 /* MAIN */
 main {
@@ -49,20 +52,4 @@ h2 {
 }
 h3 {
   font-size: 2vw;
-}
-main a:hover { 
-  color: aqua;
-  color: white;
-  text-shadow: 1px 1px white;
-}
-.self {
-  float: right;
-  margin-left: 10%;
-  width: 50%;
-  height: 50%;
-}
-
-/* Map Selector*/
-label {
-font-size: 3vw;
 }
