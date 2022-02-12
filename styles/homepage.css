@@ -67,8 +67,7 @@ main a:hover {
 }
 
 p {
-  margin-left:20%;
-  margin-top:30px;
+  margin:30px 20%;
   line-height: 25px;
 }
 
