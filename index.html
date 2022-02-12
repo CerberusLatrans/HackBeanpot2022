@@ -20,23 +20,26 @@
 
   <body>
     <header id="home">
-        <h1>Welcome to LeekCode!</h1>
+        <h1>Professor Racket</h1>
         <h3>The Best Racket Bootcamp</h3>
     </header>
     <nav>
       <ul class="navbar">
-        <li>Topics</li>
+        <li class="topics">Topics</li>
         <ul>
           <li><a href="pages/primdata.html">Primitive Data</a></li>
-          <li><a>Designing Data Structures</a></li>
-          <li><a>Abstraction</a></li>
-          <li><a>Recursion</a></li>
-          <li><a>Trees</a></li>
-          <li><a>Graphs</a></li>
-          <li><a>Generative Recursion</a></li>
-          <li><a>Accumulators</a></li>
+          <li><a href="pages/uniondata.html">Union Data</a></li>
+          <li><a href="pages/arbitrarilylargedata.html">Arbitrarily Large Data</a></li>
         </ul>
-        <li><a href="">Helpful Links</a></li>
+        <li><a class="helpfullinks">Helpful Links</a></li>
+        <ul>
+          <li><a href="https://htdp.org/2018-01-06/Book/index.html">How to Design Programs</a></li>
+          <li><a href="https://docs.racket-lang.org/">Racket Documentation</a></li>
+          <li><a href="https://docs.racket-lang.org/reference/strings.html">String Library</a></li>
+          <li><a href="https://docs.racket-lang.org/reference/pairs.html">Pairs and Lists Library</a></li>
+          <li><a href="https://docs.racket-lang.org/teachpack/2htdpimage.html">Image Library</a></li>
+          <li><a href="https://www.khoury.northeastern.edu/">Khoury College of Computer Sciences</a></li>
+        </ul>
         <li><a href="">About</a></li>
       </ul>
      </nav>
@@ -47,13 +50,4 @@
     </footer>
 
   </body>
-  <script>SEC_HTTPS = true;
-    SEC_BASE = "compilers.widgets.sphere-engine.com"; 
-    (function(d, s, id){ SEC = window.SEC || (window.SEC = []);
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; 
-      js.src = (SEC_HTTPS ? "https" : "http") + "://" + SEC_BASE + "/static/sdk/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);   
-    }(document, "script", "sphere-engine-compilers-jssdk"));
-    </script>
 </html>
