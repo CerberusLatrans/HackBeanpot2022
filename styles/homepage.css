@@ -2,19 +2,19 @@ html {
   color: white;
   font-size: 1vw; 
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(49, 49, 49);
 }
 body {
-  margin: 10%
+  margin: 5% 10%;
 }
 /* HEADER */
 header {
   text-align: center;
   color: white;
-  text-shadow: 4px 4px rgb(74, 108, 202), 7px 7px rgb(161, 23, 23);
 }
 h1 {
   font-size: 75px;
+  text-shadow: 4px 4px rgb(74, 108, 202), 7px 7px rgb(161, 23, 23);
 }
 a {
   color: inherit;
@@ -24,14 +24,16 @@ a {
 /* NAV BAR */
 nav {
   position:fixed;
-  font-size: 12px;
-  left: 1%;
+  font-size: 14px;
+  top: 0.5%;
+  left: -2%;
   border-right: 3px solid white;
   height: 100%
 }
 nav li {
-  padding: 1%;
+  padding: 1% 0.5%;
   margin: 0;
+  list-style: none;
 }
 nav a:hover {
   color: rgb(74, 108, 202);
@@ -42,7 +44,7 @@ nav a:hover {
 }
 /* MAIN */
 main {
-  margin: 10%;
+  margin: 5% 10%;
 }
 
 h2 {
@@ -65,8 +67,9 @@ main a:hover {
 }
 
 p {
-  margin-left:20%;
-  margin-top:30px;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 30px;
   line-height: 25px;
 }
 
