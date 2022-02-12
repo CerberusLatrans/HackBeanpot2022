@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/primdata.css">
+    <!--JavaScript-->
+    <script src="scripts/main.js" defer></script>
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header id="home">
+        <h1>Welcome to Professor Racket!</h1>
+    </header>
+
+    <main>
+      <!--Exercise Display-->
+      <section>
+        <h2>Arbitrarily Large Data</h2>
+        <h3>Problems</h3>
+        <h4>Problem 1: Mary Had A Little Lamb</h4>
+        <p>Make a list of strings, that have the elements in order: “Mary”, “had”, “a”, “little”, “lamb”.</p>
+      </section>
+      <!--Code Editor-->
+      
+      <section>
+        <!--
+          <div data-pym-src="https://www.jdoodle.com/embed/v0/4rye"></div>
+        <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript">
+        </script>
+        -->
+        <div class="sec-widget" data-widget="9e1e25c224b32a941cccc468d284e148" style="width:1000px; height: 1000px;"></div>
+        <!-- >embed src="https://www.jdoodle.com/a/4rye" scrolling="no" style="width:1000px; height: 1000px;">-->
+      </section>
+
+      <a href="../../index.html">Back to home</a>
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+  <script>SEC_HTTPS = true;
+    SEC_BASE = "compilers.widgets.sphere-engine.com"; 
+    (function(d, s, id){ SEC = window.SEC || (window.SEC = []);
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; 
+      js.src = (SEC_HTTPS ? "https" : "http") + "://" + SEC_BASE + "/static/sdk/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);   
+    }(document, "script", "sphere-engine-compilers-jssdk"));
+    </script>
+</html>

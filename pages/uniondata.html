@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <!--CSS-->
-    <link rel="stylesheet" href="styles/primdata.css">
+    <link rel="stylesheet" href="../styles/consoleTemp.css">
     <!--JavaScript-->
     <script src="scripts/main.js" defer></script>
 
@@ -20,43 +20,38 @@
 
   <body>
     <header id="home">
-        <h1>Welcome to Professor Racket!</h1>
     </header>
-
+    <nav>
+      <ul class="navbar">
+        <li class="topics">Topics</li>
+        <ul>
+          <li><a href="primdata.html">Primitive Data</a></li>
+          <li><a href="uniondata.html">Union Data</a></li>
+          <li><a href="arbitrarilylargedata.html">Arbitrarily Large Data</a></li>
+        </ul>
+        <li><a class="helpfullinks">Helpful Links</a></li>
+        <ul>
+          <li><a href="https://htdp.org/2018-01-06/Book/index.html">Textbook: How to Design Programs</a></li>
+          <li><a href="https://docs.racket-lang.org/">Racket Documentation</a></li>
+          <li><a href="https://docs.racket-lang.org/reference/strings.html">String Library</a></li>
+          <li><a href="https://docs.racket-lang.org/reference/pairs.html">Pairs and Lists Library</a></li>
+          <li><a href="https://docs.racket-lang.org/teachpack/2htdpimage.html">Image Library</a></li>
+          <li><a href="https://www.khoury.northeastern.edu/">Khoury College of Computer Sciences</a></li>
+        </ul>
+        <li><a href="">About</a></li>
+      </ul>
+     </nav>
+     
     <main>
-      <!--Exercise Display-->
-      <section>
-        <h2>Union Data</h2>
-        <h3>Problems</h3>
-        <h4>Problem 1: Fruits</h4>
-        <p>Union data can be several things, but only one of them at a time. Construct the template for the data type, named “fruits”, and is one of “apple”, “banana” or “starfruit”.</p>
-      </section>
-      <!--Code Editor-->
-      
-      <section>
-        <!--
-          <div data-pym-src="https://www.jdoodle.com/embed/v0/4rye"></div>
-        <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript">
-        </script>
-        -->
-        <div class="sec-widget" data-widget="9e1e25c224b32a941cccc468d284e148" style="width:1000px; height: 1000px;"></div>
-        <!-- >embed src="https://www.jdoodle.com/a/4rye" scrolling="no" style="width:1000px; height: 1000px;">-->
-      </section>
+      <h1>Primitive Data</h1>
+      <h2>Problems:</h2>
+      <ol>
+        <li><a href="../pages/uniondataproblems/uniondataP1.html">Fruits</a></li>
+      </ol>
 
-      <a href="../index.html">Back to home</a>
     </main>
-
     <footer>
     </footer>
 
   </body>
-  <script>SEC_HTTPS = true;
-    SEC_BASE = "compilers.widgets.sphere-engine.com"; 
-    (function(d, s, id){ SEC = window.SEC || (window.SEC = []);
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; 
-      js.src = (SEC_HTTPS ? "https" : "http") + "://" + SEC_BASE + "/static/sdk/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);   
-    }(document, "script", "sphere-engine-compilers-jssdk"));
-    </script>
 </html>
