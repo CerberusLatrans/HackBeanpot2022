@@ -32,7 +32,7 @@ nav {
 }
 nav li {
   padding: 0.5%;
-  margin: 0;
+  margin-right: -0.5%;
   list-style: none;
 }
 nav a:hover {
