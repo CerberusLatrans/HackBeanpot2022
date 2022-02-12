@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     
     <!--CSS-->
-    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="../styles/consoleTemp.css">
     <!--JavaScript-->
     <script src="scripts/main.js" defer></script>
 
@@ -20,20 +20,23 @@
 
   <body>
     <header id="home">
-        <h1>Professor Racket</h1>
-        <h3>The Best Racket Bootcamp</h3>
     </header>
     <nav>
       <ul class="navbar">
         <li class="topics">Topics</li>
         <ul>
           <li><a href="pages/primdata.html">Primitive Data</a></li>
-          <li><a href="pages/uniondata.html">Union Data</a></li>
-          <li><a href="pages/arbitrarilylargedata.html">Arbitrarily Large Data</a></li>
+          <li><a>Designing Data Structures</a></li>
+          <li><a>Abstraction</a></li>
+          <li><a>Recursion</a></li>
+          <li><a>Trees</a></li>
+          <li><a>Graphs</a></li>
+          <li><a>Generative Recursion</a></li>
+          <li><a>Accumulators</a></li>
         </ul>
         <li><a class="helpfullinks">Helpful Links</a></li>
         <ul>
-          <li><a href="https://htdp.org/2018-01-06/Book/index.html">How to Design Programs</a></li>
+          <li><a href="https://htdp.org/2018-01-06/Book/index.html">Textbook: How To Design Programs</a></li>
           <li><a href="https://docs.racket-lang.org/">Racket Documentation</a></li>
           <li><a href="https://docs.racket-lang.org/reference/strings.html">String Library</a></li>
           <li><a href="https://docs.racket-lang.org/reference/pairs.html">Pairs and Lists Library</a></li>
@@ -43,11 +46,30 @@
         <li><a href="">About</a></li>
       </ul>
      </nav>
+     
     <main>
-    </main>
+      <h1>Problem x</h1>
+      <p>Problem Description Problem Description Problem Description Problem Description 
+        Problem Description Problem Description Problem Description Problem Description 
+        Problem Description Problem Description Problem Description Problem Description 
+        Problem Description Problem Description Problem Description Problem Description 
+      </p>
+      <div class="se-widget" data-widget="BG2wsajeM0"></div>
 
+    </main>
     <footer>
     </footer>
 
   </body>
+  <script>
+    (function(d, s, id){
+      SE_BASE = "widgets.sphere-engine.com";
+      SE_HTTPS = true;
+      SE = window.SE || (window.SE = []);
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = (SE_HTTPS ? "https" : "http") + "://" + SE_BASE + "/static/sdk/sdk.min.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, "script", "sphere-engine-jssdk"));</script>
 </html>
