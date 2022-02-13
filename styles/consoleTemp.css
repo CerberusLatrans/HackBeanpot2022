@@ -5,6 +5,7 @@ html {
   background-color: rgb(49, 49, 49);
 }
 body {
+  font-size: 18px;
   margin: 5% 10%;
 }
 /* HEADER */
@@ -52,7 +53,7 @@ main {
 }
 
 h2 {
-  font-size: 5vw;
+  font-size: 2vw;
 }
 h3 {
   font-size: 2vw;
