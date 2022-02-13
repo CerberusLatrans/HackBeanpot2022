@@ -5,6 +5,7 @@ html {
   background-color: rgb(49, 49, 49);
 }
 body {
+  font-size: 18px;
   margin: 5% 10%;
 }
 /* HEADER */
@@ -25,7 +26,7 @@ a {
 nav {
   position:fixed;
   font-size: 14px;
-  top: 0.5%;
+  top: 1%;
   left: -2%;
   border-right: 3px solid white;
   height: 100%
@@ -42,43 +43,20 @@ nav a:hover {
 .topics, .helpfullinks {
   font-size: 18px;
 }
+/* MAIN */
+main {
+  margin-top: 5%;
+  margin-left: 20vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+h3 {
+  font-size: 2vw;
+}
 
 img {
   width: 3vw;
   height: 3vw;
 }
-/* MAIN */
-main {
-  margin: 5% 10%;
-}
-
-h2 {
-  font-size: 5vw;
-}
-h3 {
-  font-size: 2vw;
-}
-main a:hover { 
-  color: aqua;
-  color: white;
-  text-shadow: 1px 1px white;
-}
-.self {
-  float: right;
-  margin-left: 10%;
-  width: 50%;
-  height: 50%;
-}
-
-p {
-  margin-left: 20%;
-  margin-right: 15%;
-  margin-top: 30px;
-  line-height: 25px;
-}
-
-/* Map Selector*/
-label {
-font-size: 3vw;
-}
-
